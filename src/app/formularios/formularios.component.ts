@@ -10,6 +10,8 @@ export class FormulariosComponent implements OnInit {
 
   name = new FormControl('',[Validators.minLength(4), Validators.required]);
   isChecked = new FormControl(false);
+
+
   constructor() { }
 
   ngOnInit(): void {
