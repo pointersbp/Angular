@@ -6,21 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-
-  currentDate: Date | null = null;
-
-  resultado: number = 0;
-
   constructor() { }
 
   ngOnInit(): void {
 
   }
 
-  sumar(a: number, b: number) {
-    this.resultado = a + b;
-
-  }
 
 
 }

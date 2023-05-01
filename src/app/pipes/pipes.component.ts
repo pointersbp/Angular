@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PipesComponent implements OnInit {
 
-  name = 'kevin'.toUpperCase();
+  name = 'kevin';
 
   constructor() { }
 
