@@ -1,5 +1,14 @@
+<div class="">
 <input
 type = "text"
 placeholder="Nombre"
-[formControl = "name"]>
-{{name.value}}
+[formControl] = "name">
+
+</div>
+
+<div class>
+<input type="checkbox" [formControl]="isChecked">
+{{isChecked.value}}
+</div>
+
+<button [disabled] = "name.errors">Enviar</button>
